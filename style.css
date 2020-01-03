@@ -9,6 +9,9 @@ body{
     min-height: 100vh;
     margin: 0;
     background-color: #011627;
+    /* background:linear-gradient(rgba(11, 36, 51, 0.692), rgba(17, 99, 175, 0)), url("https://media.giphy.com/media/fQZX2aoRC1Tqw/giphy.gif"); */
+    background-position: center;
+    background-size: cover;
     color: white;
 }
 
@@ -27,10 +30,11 @@ body, .qoute-input{
 .timer{
     position: absolute;
     top: 5rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .qoute-display{
+    font-size: 25px;
     margin-bottom: 1rem;
     margin-left: calc(1rem + 2px);
     margin-right: calc(1rem + 2px);
@@ -48,4 +52,13 @@ body, .qoute-input{
 }
 .qoute-input:focus{
     border-color: black;
+}
+
+.correct{
+    color: rgb(212, 248, 7);
+}
+
+.incorrect{
+    color: red;
+    text-decoration: underline;
 }
