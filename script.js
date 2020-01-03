@@ -2,7 +2,7 @@ const randomQ = 'https://api.quotable.io/random';
 
 const qoutedisplay=document.getElementById('qouteDisplay')
 const qouteInput=document.getElementById('qouteInput')
-const timer=document.getElementById('timer')
+const timer = document.getElementById('timer')
 
 qouteInput.addEventListener('input', ()=> {
    const arrayqoute = qoutedisplay.querySelectorAll('span')
@@ -45,13 +45,21 @@ function getRandomQ(){
         qoutedisplay.appendChild(charSpan)
 
     })
-        
 
     qouteInput.value = null;
+    startTimer()
+}
+let startTime
+function startTimer(){
+    timer.innerText = 0
+    startTime = new Date()
+    setInterval(() => {
+       timer.innerText = getTimerTime()
+    }, 1000);
 }
 
-// function startTimer(){
-//     timer.innerText = 0
-// }
+function getTimerTime(){
+    return Math.floor((new Date() -startTime) / 1000)
+}
 
 getnextQ()
