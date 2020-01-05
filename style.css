@@ -23,7 +23,7 @@ body, .qoute-input{
     background-color: rgb(18, 105, 163);
     padding: 1rem;
     border-radius: .5rem;
-    width: 500px;
+    width: 450px;
     max-width: 90%;
 }
 
@@ -32,10 +32,12 @@ body, .qoute-input{
     top: 3rem;
     right: 4rem;
     font-size: 2.5rem;
+    
+
 }
 
 .qoute-display{
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 1rem;
     margin-left: calc(1rem + 2px);
     margin-right: calc(1rem + 2px);
@@ -49,7 +51,7 @@ body, .qoute-input{
     margin: auto;
     resize: none;
     padding: .5rem 1rem;
-    font-size: 1rem;
+    font-size: 20px;
 }
 .qoute-input:focus{
     border-color: black;
