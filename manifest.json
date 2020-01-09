@@ -1,0 +1,21 @@
+{
+  "short_name": "Test Speed",
+  "name": "Tati Fast Type",
+  "icons": [
+    {
+      "src": "/images/icons.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "",
+  "background_color": "#011627",
+  "display": "standalone",
+  "scope": "",
+  "theme_color": "#011627"
+}
